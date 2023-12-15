@@ -1,0 +1,52 @@
+.form   {
+    height: 36px;
+    width: 750px;
+    position: relative;
+    border-radius: 10px;
+    padding:0 30px 35px 0;
+}
+.delete {
+    position: absolute;
+    top: 7px;
+    right: 90px;
+    transition: transform 0.5s;
+}
+.check  {
+    position: absolute;
+    top: 7px;
+    right: 55px;
+    transition: transform 0.5s;
+}
+
+.check:hover    {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.delete:hover   {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.cart  {
+    width: 625px;
+    padding: 4px 100px 4px 20px;
+    background: #222222;
+    border-radius: 20px;
+    height: 35px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+.input:hover    {
+    cursor: pointer;
+}
+
+.input  {
+    width: 500px;
+    height: 33px;
+    border: none;
+    font-family: "Segoe Print",sans-serif;
+    outline: none;
+    background-color: #222222;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: white;
+}
